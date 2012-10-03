@@ -1,4 +1,6 @@
 Microblog::Application.routes.draw do
+  resources :entries
+
   resources :users
 
   resources :blogposts
